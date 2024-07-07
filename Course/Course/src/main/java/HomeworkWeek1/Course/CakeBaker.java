@@ -1,0 +1,1 @@
+package HomeworkWeek1.Course;import org.springframework.beans.factory.annotation.Autowired;import org.springframework.stereotype.Service;@Servicepublic class CakeBaker {    @Autowired    Frosting f;    @Autowired    Syrup s;    public void bakeCake()    {        f.getFrostingType();        s.getSyrupType();    }}

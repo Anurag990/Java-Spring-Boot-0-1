@@ -1,0 +1,1 @@
+package HomeworkWeek1.Course;public interface Frosting {    void getFrostingType();}
